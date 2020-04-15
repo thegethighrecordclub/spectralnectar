@@ -13,8 +13,17 @@ export default function Index() {
       <body>
         <Layout>
           {"Welcome to Adrienne and David's Birthday Party Web Page!"}
-          <br/>
-          <br/>
+          <br />
+          <br />
+          {'If you made it here, that means YOU are invited to our '}
+          <b>
+            <a href='https://www.facebook.com/events/809405006214044/'>
+              Virtual Birthday Party
+            </a>
+          </b>
+
+          <br />
+          <br />
           <Livestream />
           <Recipe />
         </Layout>
@@ -22,4 +31,3 @@ export default function Index() {
     </div>
   );
 }
-
