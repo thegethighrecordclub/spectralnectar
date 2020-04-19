@@ -12,16 +12,9 @@ export default function Index() {
       </Head>
       <body>
         <Layout>
-          {"Welcome to Adrienne and David's Birthday Party Web Page!"}
           <br />
           <br />
-          {'If you made it here, that means YOU are invited to our '}
-          <b>
-            <a href='https://www.facebook.com/events/809405006214044/'>
-              Virtual Birthday Party
-            </a>
-          </b>
-
+          {'Wowowoowow what a great time! David and I had such a fun time streaming our birthday party. We might just have to stream again... so stay tuned for that.' }
           <br />
           <br />
           <Livestream />
